@@ -71,7 +71,7 @@ class MainTest {
     @Test
     public void containsDigitAtStart () {
         //GIVEN
-        String input = "123Passwort";
+        String input = "Passwort123";
 
         //WHEN
         String actual = Main.checkDigit (input);
