@@ -59,7 +59,7 @@ class MainTest {
     @Test
     public void containsNoDigit () {
         //GIVEN
-        String input = "Passwort";
+        String input = "123Passwort";
 
         //WHEN
         String actual = Main.checkDigit (input);
