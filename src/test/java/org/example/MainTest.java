@@ -77,7 +77,7 @@ class MainTest {
         String actual = Main.checkDigit (input);
 
         //THEN
-        String expected = "In dem Passwort ist eine Blume enthalten.";
+        String expected = "In dem Passwort ist eine Zahl enthalten.";
         assertEquals(expected, actual);
     }
 
